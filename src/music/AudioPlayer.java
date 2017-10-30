@@ -6,8 +6,6 @@ import java.io.IOException;
 
 /**
  * An utility class for playing back audio files using Java Sound API.
- *
- * @author www.codejava.net
  */
 public class AudioPlayer implements LineListener {
     private static final int SECONDS_IN_HOUR = 60 * 60;
