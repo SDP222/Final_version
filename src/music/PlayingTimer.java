@@ -8,7 +8,6 @@ import java.text.SimpleDateFormat;
  * This class counts playing time in the form of HH:mm:ss
  * It also updates the time slider
  *
- * @author www.codejava.net
  */
 public class PlayingTimer extends Thread {
     private DateFormat dateFormater = new SimpleDateFormat("HH:mm:ss");
